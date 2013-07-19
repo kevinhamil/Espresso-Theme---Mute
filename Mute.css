@@ -38,7 +38,7 @@ constant.character.entity.html {
 }
 
 tag.block entity.name {
-	color: #54a1a1;
+	color: #5f9e9e;
 	background-color: rgba(100, 131, 141, 0.05);
 	font-weight: bold;
 }
@@ -65,12 +65,12 @@ punctuation.terminator.rule.css {
 }
 
 attribute-value.value {
-	/background-color: #2d2d2d;
+	background-color: #292929;
 }
 
 property-list.css property-value {
 	color: #a4997c;
-	background-color: #2d2d2d;
+	background-color: #292929;
 }
 
 keyword.important.css {
