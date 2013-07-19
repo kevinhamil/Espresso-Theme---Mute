@@ -5,7 +5,7 @@ This is a dark, muted color scheme for Espresso. I created it to be visually sof
 
 To add this theme to Espresso, simply copy Mute.css to ~/Library/Application Support/Espresso/Themes/ on your mac. If Espresso was open, restart and Mute should be available in the theme selection.
 
-If you would like to contact me for any reason, you can reach me at kevinh81@gmail.com.
+If you would like to contact me for any reason, you can reach me at kevinh81 at gmail dot com.
 
 <h3>HTML</h3>
 
