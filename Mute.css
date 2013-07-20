@@ -1,10 +1,13 @@
 /*
 	@theme Mute
 	@override-placeholders html, css
+	
+	by Kevin Hamil
+	http://twitter.com/kevinhamil
 
 */
 /*
-	Version 1.0
+	Version 1.2
 */
 
 @base {
@@ -13,101 +16,145 @@
 	insertion-point-color: #fff;
 	selection-background-color: #444;
 }
-
 apache, css, js, php, python, ruby, tag, sourcecode, source {
     spell-check: disabled;
 }
-
 tag, tag > string > punctuation {
 	color: #65848d;
 }
 
-/* HTML Styles */
+
+/* HTML STYLES */
 
 comment.block.html {
-	color: #444;
-}
-
-tag.doctype.html {
 	color: #555;
 }
-
+tag.doctype.html {
+	color: #777;
+}
 language-root,
 constant.character.entity.html {
 	color: #aaa;
 }
-
 tag.block entity.name {
-	color: #5f9e9e;
-	background-color: rgba(100, 131, 141, 0.05);
+	color: #54a1a1;
+	background-color: #282a2b;
 	font-weight: bold;
 }
-
 tag.open attribute-value {
 	color: #b38a7d;
 }
-
 tag.open.self-closing entity.name,
 tag.open.inline.html entity.name,
 tag.close.inline.html entity.name {
 	color: #54a1a1;
 }
-
-property-list.css property-name,
-property-list.css punctuation.separator.key-value.css,
-property-list.css punctuation.terminator.rule.css {
-	color: #839b83;
-}
-
-punctuation.separator.key-value.css,
-punctuation.terminator.rule.css {
-	background-color: #222;
-}
-
 attribute-value.value {
-	background-color: #292929;
+	background-color: #2b2b2b;
 }
 
-property-list.css property-value {
-	color: #a4997c;
-	background-color: #292929;
-}
 
-keyword.important.css {
-	color: #a69056;
-	font-weight: bold;
-}
-
-/* CSS Specific Styles */
-
-comment.block.css {
-	color: #666;
-}
+/* EMBEDDED CSS STYLES (in <style> tag) */
 
 tag.open.style.html,
 tag.close.style.html {
 	color: #876380;
 }
-
 tag.open.style.html entity.name,
 tag.close.style.html entity.name {
+	background-color: #2b282b;
+	font-weight: bold;
+}
+embedded-style selector.css,
+embedded-style property-list.block.css punctuation.begin,
+embedded-style property-list.block.css punctuation.end {
+	color: #937166;
+}
+embedded-style pseudo-class {
+	color: #78594f;
+}
+embedded-style property-list.block.css property-name {
+	color: #839b83;
+}
+embedded-style punctuation.separator.key-value.css,
+embedded-style punctuation.terminator.rule.css {
+	background-color: #222;
+	color: #839b83;
+}
+embedded-style property-list.block.css property-value {
+	color: #a4997c;
+	background-color: #2b2b2b;
+}
+embedded-style keyword.important.css {
+	color: #a69056;
+	font-weight: bold;
+}
+embedded-style at-rule.media.css {
+	color: #4a4967;
+}
+embedded-style keyword.control {
+	color: #565472;
+}
+embedded-style comment.line.invalid.css,
+embedded-style comment.line.invalid.css punctuation.definition.begin {
+	color: #555;
+}
+
+
+/* INLINE CSS STYLES */
+
+embedded.property-list.css {
+	color: #839b83;
+}
+embedded.property-list.css punctuation.separator.key-value.css,
+embedded.property-list.css punctuation.terminator.rule.css {
+	background-color: #222;
+	color: #839b83;
+}
+embedded.property-list.css property-value {
+	color: #a4997c;
+	background-color: #2b2b2b;
+}
+embedded.property-list.css keyword.important.css {
+	color: #a69056;
 	font-weight: bold;
 }
 
+
+/* CSS STYLE SHEET */
+
+comment.block.css {
+	color: #777;
+}
+comment.line.invalid.css,
+comment.line.invalid.css punctuation.definition.begin {
+	color: #555;
+}
 selector.css,
 property-list.block.css punctuation.begin,
 property-list.block.css punctuation.end {
 	color: #937166;
 }
-
-pseudo-class {
-	color: #78594f;
+property-list.block.css property-name {
+	color: #839b83;
+}
+property-value punctuation.separator.key-value.css,
+property-value punctuation.terminator.rule.css {
+	background-color: #222;
+	color: #839b83;
+}
+property-list.block.css property-value {
+	color: #a4997c;
+	background-color: #2d2d2d;
 }
 
-at-rule.media.css {
-	color: #4a4967;
-}
 
-keyword.control {
-	color: #565472;
-}
+/* PHP STYLES */
+
+
+
+
+/* JS STYLES */
+
+
+
