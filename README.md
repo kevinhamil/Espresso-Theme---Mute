@@ -1,4 +1,4 @@
-Mute for Espresso
+Mute - An Espresso Theme
 =================
 
 This is a dark, muted color scheme for Espresso. I created it to be visually soft and easy on the eyes, while maintaining ease of distinction and syntax clarity. Currently it only supports HTML and CSS (and I may still tweak them once I've used the theme longer). Eventually, I will add in support for PHP and JS as well.
