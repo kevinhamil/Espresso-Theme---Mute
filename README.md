@@ -1,4 +1,4 @@
-Mute - An Espresso Theme
+Espresso Theme - Mute
 =================
 
 This is a dark, muted color scheme for <a href="http://macrabbit.com/espresso/" target="_blank">Espresso</a>. I created it to be soft on the eyes and visually pleasing to look at, while maintaining syntax clarity and relationships.
