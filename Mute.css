@@ -135,6 +135,9 @@ property-list.block.css punctuation.begin,
 property-list.block.css punctuation.end {
 	color: #937166;
 }
+pseudo-class {
+	color: #78594f;
+}
 property-list.block.css property-name {
 	color: #839b83;
 }
